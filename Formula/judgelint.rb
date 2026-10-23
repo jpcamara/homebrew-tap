@@ -8,22 +8,22 @@ class Judgelint < Formula
   on_macos do
     on_arm do
       url "https://github.com/jpcamara/judgelint/releases/download/v0.1.0/judgelint-aarch64-apple-darwin.tar.gz"
-      sha256 "004fded84604ffc124017953ee5dd9e4958cd012d23d048d18755f950d55c874"
+      sha256 "9603f5a4dbc3647db2439b4cb2a1f66ab4d37f90828a95e5c77520a4fc142daa"
     end
     on_intel do
       url "https://github.com/jpcamara/judgelint/releases/download/v0.1.0/judgelint-x86_64-apple-darwin.tar.gz"
-      sha256 "f2cae6ff166499d634d97b63b5f659990843614c030b55d528f696b75a60989c"
+      sha256 "86b8930fb8e102c2b09bf9c1d7c27f225459c4b0bfbeaad15ef7d8a8baaad7fe"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/jpcamara/judgelint/releases/download/v0.1.0/judgelint-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3a1fc4a749b2975c0430c9f116a5e720b2350dd3aaebbfeefc6a2e4789cd7d96"
+      sha256 "942dda91d1f2f05b119c510a667cdab0444c07d117bf854b3276b6d4e7d100b1"
     end
     on_intel do
       url "https://github.com/jpcamara/judgelint/releases/download/v0.1.0/judgelint-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "20a9501646cb5003aa4b302764eba96db9aa03864deccc286e280515e085c3c2"
+      sha256 "e55e7d3d8be48206b773abadfa19e1e26543a10e346f2923e3d0c7a91ce6e507"
     end
   end
 
