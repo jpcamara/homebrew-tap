@@ -6,6 +6,6 @@ brew install jpcamara/tap/judgelint
 
 | Formula | |
 |---|---|
-| [judgelint](https://github.com/jpcamara/judgelint) | Lint for the conventions a linter can't check, judged by decision models. |
+| [judgelint](https://github.com/jpcamara/judgelint) | Checks code against conventions written in plain English, using decision models. |
 
-The formulas are updated by each project's release job.
+Each project's release job updates its formula.
