@@ -2,28 +2,28 @@
 class Judgelint < Formula
   desc "Check code against plain-English conventions using decision models"
   homepage "https://github.com/jpcamara/judgelint"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jpcamara/judgelint/releases/download/v0.1.4/judgelint-aarch64-apple-darwin.tar.gz"
-      sha256 "053e9e54fcd06e804b6ed741d17eb1016a55f8a3c831016af3e9e4892045f30e"
+      url "https://github.com/jpcamara/judgelint/releases/download/v0.1.5/judgelint-aarch64-apple-darwin.tar.gz"
+      sha256 "c23af35a5c8524633673899d9adf83b95d39973d2c3087d25f64e85ea7e11401"
     end
     on_intel do
-      url "https://github.com/jpcamara/judgelint/releases/download/v0.1.4/judgelint-x86_64-apple-darwin.tar.gz"
-      sha256 "0d8f9d6f5295b88d76e71b81e8b1dd5467a29d34556996aab9c7f68641a3eb04"
+      url "https://github.com/jpcamara/judgelint/releases/download/v0.1.5/judgelint-x86_64-apple-darwin.tar.gz"
+      sha256 "a366be963f1cec49a99b6ec6c192e8737fa393ca3f87ffe2ff044b380f9e6892"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jpcamara/judgelint/releases/download/v0.1.4/judgelint-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d94e3cd9537d93557ea7cd0e6e63012f3e9482ea2dd7f06e68ff88d0fadc47cc"
+      url "https://github.com/jpcamara/judgelint/releases/download/v0.1.5/judgelint-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "83b183272b4021868bfb603d27c4168a3e2916440619fe71c91252b9a6239acc"
     end
     on_intel do
-      url "https://github.com/jpcamara/judgelint/releases/download/v0.1.4/judgelint-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c60d134829def5bf9142931c4655dccdd741d0b506378b57b69853b9f18bafdc"
+      url "https://github.com/jpcamara/judgelint/releases/download/v0.1.5/judgelint-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6279dd231a58d2601de0120d08fbe4b86d67e036025761506ef30c3e9ceadb10"
     end
   end
 
